@@ -1,0 +1,201 @@
+@media (max-width: 1520px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 1025px) {
+    .header .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo h2 {
+        font-size: 40px;
+    }
+
+    .header .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+        padding-top: 0;
+    }
+
+    .service {
+        margin: 65px 0 0;
+    }
+
+    .service-title h2 {
+        font-size: 40px;
+    }
+
+    .service-title p {
+        padding: 15px 0 70px 0;
+    }
+
+    .service-text p {
+        padding: 0 70px 70px;
+    }
+
+    .service-items .item {
+        width: 50%
+    }
+
+    .about-image img {
+        margin-top: 20%;
+        margin-left: -8%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .banner {
+        padding: 180px 0;
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+    }
+
+    .menu ul {
+        margin-right: 0;
+    }
+
+    .service-title p {
+        padding: 15px 120px 70px 120px;
+    }
+
+    .about-image {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .about-image img {
+        margin: 0;
+    }
+
+    .about-write {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-write h2 {
+        margin-top: 5%;
+    }
+
+    .about-write p {
+        padding: 0 50px;
+    }
+
+    .contact-title p {
+        padding: 25px 100px 85px 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-image {
+        width: 90%;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .about-title p {
+        padding: 20px 40px 50px 40px;
+    }
+
+    .text h1 {
+        font-size: 35px;
+    }
+
+    .text p {
+        font-weight: 400;
+    }
+
+    .service-title p {
+        padding: 25px;
+        margin-bottom: 10%;
+    }
+
+    .service-text p {
+        padding: 0 0 50px;
+    }
+
+    .about-write h2 {
+        margin-top: 10%;
+    }
+
+    .about-write p {
+        padding: 10px 30px;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+
+    .contact-title p {
+        padding: 25px 15px 20px 15px;
+    }
+
+    .contact-location {
+        width: 100%;
+    }
+
+    .contact-icon span {
+        display: inline-block;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .text h1 {
+        font-size: 34px;
+    }
+
+    .service-text h2 {
+        padding: 10px;
+    }
+
+    .service-text p {
+        padding: 0 3px 50px;
+    }
+
+    .about-title p {
+        padding: 20px 10px 50px 10px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .logo h2 {
+        font-size: 35px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .service-items .item {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 15px 30px;
+    }
+}
